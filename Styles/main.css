@@ -1,0 +1,73 @@
+html{
+	min-width: 100%;
+	min-height: 100%;
+	background-image: url("../Images/hexagon_background.png");
+	background-repeat: repeat;
+	background-attachment: scroll;
+	color: white;
+	font-family: 'Roboto Mono', monospace;
+}
+body{
+	position: absolute;
+	left: 10%;
+	right: 10%;
+	bottom: 0;
+	top: 0;
+}
+body.verify{
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+a:link{
+	color: #FFF;
+}
+a:hover{
+	color: #AAA;
+}
+a:visited{
+	color: #DDD;
+}
+nav{
+	position:absolute;
+	top:0;
+	height: 100px;
+}
+nav>a:not(.logo){
+	font-size: 1.5em;
+	position:relative;
+	top:-50%;
+	display: inline-block;
+	vertical-align: middle;
+}
+nav p{
+	font-size: 1.5em;
+	display: inline;
+	position:relative;
+	top:-50%;
+	vertical-align: middle;
+}
+main{
+	position: absolute;
+	top: 100px;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	margin: 0;
+}
+main p{
+	font-size: 1.3em;
+	text-align: justify;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+main h1{
+	text-align: center;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+button{
+	background: none;
+	color: white;
+	font-family: 'Roboto Mono', monospace;
+}

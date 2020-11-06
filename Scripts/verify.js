@@ -1,11 +1,8 @@
 document.addEventListener("DOMContentLoaded", init);
 
 function redirect(){
-	var num = document.getElementById("valueNum").value.toLowerCase();
-	if(num == "6" || num == "six"){
-		setCookie("verified", true, 10000);
-		window.location.replace(location.search.substring(1));
-	}
+	setCookie("verified", true, 10000);
+	window.location.replace(location.search.substring(1));
 }
 
 function setCookie(cname, cval, exdays){
